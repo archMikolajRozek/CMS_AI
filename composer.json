@@ -1,0 +1,16 @@
+
+{
+    "name": "cms4everyone/core",
+    "description": "A modern CMS built with PHP 8.",
+    "version": "0.0.1",
+    "require": {
+        "php": "^8.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Admin\\": "public/admin/"
+        }
+    }
+}
